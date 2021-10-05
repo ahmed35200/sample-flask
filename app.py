@@ -26,7 +26,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template("index.html")
+    return "lmao"
 @app.route('/hashi', methods=['GET', 'POST'])
 def hashing():
     ssl._create_default_https_context = ssl._create_unverified_context
