@@ -1,6 +1,6 @@
 from flask import Flask,request
 from flask import render_template
-
+import cv2
 import urllib.request
 import ssl
 import urllib.request as rq
