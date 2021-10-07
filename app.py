@@ -29,13 +29,4 @@ def hello_world():
     return "lmao"
 @app.route('/hashi', methods=['GET', 'POST'])
 def hashing():
-    ssl._create_default_https_context = ssl._create_unverified_context
-    urllib.request.urlretrieve(
-        'https://dwjz5q0kg4677.cloudfront.net/C3653D2D-B1DD-4311-993F-E4736934AC8D.jpeg',
-        "gfg")
-    image = cv2.imread("gfg")
-    image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    cv2.waitKey(0)
-
-    imageHash = dhash(image)
-    return "lol"
+    return "lmao"
