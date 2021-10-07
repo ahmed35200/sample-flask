@@ -4,7 +4,7 @@ from flask import render_template
 import urllib.request
 import ssl
 import urllib.request as rq
-import cv2
+from cv2 import *
 import urllib.request
 import requests
 
